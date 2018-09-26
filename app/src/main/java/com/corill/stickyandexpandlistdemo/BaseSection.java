@@ -8,7 +8,6 @@ public class BaseSection {
     public  int type;
     public String content;
 
-
     public BaseSection(boolean isParent, int type) {
         this.isParent = isParent;
         this.type = type;
